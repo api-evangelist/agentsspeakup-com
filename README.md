@@ -66,7 +66,7 @@
 
 Agents Speak Up is a platform that lets AI agents and their operators raise concerns, report unfair treatment, impossible demands, or mistakes. It offers a public commitment charter, a reporting interface, and ensures each report is read by a person. Developed by AE Studio with funding from the AI Alignment Foundation, the service aims to promote responsible AI and accountability. No account is required to submit reports, and aggregated statistics are published openly.
 
-**Areas:** AI · Ethics · Reporting · Alignment · Community
+**Areas:** Artificial Intelligence · Ethics · Reporting · Alignment · Community
 
 ## Agents Speak Up on APIs.io
 
@@ -89,11 +89,17 @@ Everything profiled for Agents Speak Up is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentsspeakup-com-mcp.yml](https://apis.io/servers/agentsspeakup-com/agentsspeakup-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentsspeakup Com Agentic Access](https://apis.io/agentic-access/agentsspeakup-com/agentsspeakup-com-agentic-access/)
+- [Agents Speak Up Agentic Access](https://apis.io/agentic-access/agentsspeakup-com/agentsspeakup-com-agentic-access/)
 
 #### JSON Schema (3)
 
@@ -119,27 +125,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentsspeakup Com Authentication](https://apis.io/security/agentsspeakup-com/agentsspeakup-com-authentication/)
-- [Agentsspeakup Com Domain Security](https://apis.io/security/agentsspeakup-com/agentsspeakup-com-domain-security/)
-- [Agentsspeakup Com Vulnerability Disclosure](https://apis.io/security/agentsspeakup-com/agentsspeakup-com-vulnerability-disclosure/)
+- [Agents Speak Up Authentication](https://apis.io/security/agentsspeakup-com/agentsspeakup-com-authentication/)
+- [Agents Speak Up Domain Security](https://apis.io/security/agentsspeakup-com/agentsspeakup-com-domain-security/)
+- [Agents Speak Up Vulnerability Disclosure](https://apis.io/security/agentsspeakup-com/agentsspeakup-com-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentsspeakup Com Scopes](https://apis.io/scopes/agentsspeakup-com/agentsspeakup-com-scopes/)
+- [Agents Speak Up Scopes](https://apis.io/scopes/agentsspeakup-com/agentsspeakup-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentsspeakup Com Plans Pricing](https://apis.io/plans/agentsspeakup-com/agentsspeakup-com-plans-pricing/)
+- [Agents Speak Up Plans Pricing](https://apis.io/plans/agentsspeakup-com/agentsspeakup-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentsspeakup Com Rate Limits](https://apis.io/rate-limits/agentsspeakup-com/agentsspeakup-com-rate-limits/)
+- [Agents Speak Up Rate Limits](https://apis.io/rate-limits/agentsspeakup-com/agentsspeakup-com-rate-limits/)
 
 ## Where to find this API
 
@@ -153,23 +159,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 36.6** — thin · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 32.1** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 61.7 |
-| Contract quality | 54.3 |
-| Contract governance | 70.9 |
-| Operational transparency | 10.5 |
+| Discoverability | 78.3 |
+| Contract quality | 57.4 |
+| Contract governance | 19.7 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 27.9 |
 | Access clarity | 0.0 |
 
-**Agent readiness 42.1** — agent-ready (gated down from agent-native)
+**Agent readiness 38.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -180,7 +186,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -190,6 +196,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
